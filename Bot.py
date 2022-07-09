@@ -824,83 +824,11 @@ def kickpb2(i):
     print("kickpb2()")
     pb1.step((float(str(i).split("%")[0])))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def pause_BTN_ACTION():
     
     #print("pause_BTN_ACTION()")
 
     print(shill_pause_2.get("1.0",'end-1c'))
-
-    #print(T_CONTENT_USER_XY)
-    #print(T_CONTENT_ACC_1_XY)
-    #print(T_CONTENT_ACC_2_XY)
-
-    #os.system('TASKKILL /IM TGSBot3beta.exe /f /t')  
-    #sys.exit()
-    
-    
-    #global tgs_running
-
-    #if tgs_running == True:
-    #    tgs_running = False
-    #    return
-    #if tgs_running == False:
-    #    #tgs_running = True
-    #    try:
-    #        print("start r_clock Thread")
-    #        r_clock_thread = threading.Thread(target=r_clock)
-    #        r_clock_thread.start()
-    #        r_clock_thread = ""
-    #    except:
-    #        print ("Error: unable to start thread")
     
 ##################################################################
 ################## LOAD 
@@ -1147,41 +1075,6 @@ load_video_2_BTN.place(x=315, y=229+300)
 
 ttk.Label(root, text="Status 2:").place(x=5,y=260+300)
 ttk.Label(root, text="Pause:").place(x=170,y=229+300)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 shill_pause_2 = tk.Text(root, width=3, height=1)
 shill_pause_2.place(x=210,y=229+300)
